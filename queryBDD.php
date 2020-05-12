@@ -3,7 +3,7 @@
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=stac_V2;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	$bdd = new PDO('mysql:host=localhost;dbname=stac;charset=utf8', 'login', 'mot_de_passe', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 }
 catch (Exception $e)
 {
